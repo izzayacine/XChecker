@@ -25,7 +25,7 @@ The framework assumes the following roles:
 - an ML model M
 - an untrusted target explainer T
 - a reference explainer R
-- an independent explainer S (optional)
+- a secondary explainer S (optional)
 
 The validation approach then:
 - Validates explanations from an untrusted explainer T (e.g., PyXAI) using a reference explainer R (e.g., RFxpl)
